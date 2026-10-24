@@ -1,0 +1,24 @@
+name: Task
+description: A unit of engineering work
+type: Task
+projects: ["stayaredo/1"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What and why. For a Feature or Bug, write it so it can be used as the agent's prompt.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Observable conditions that make this done. For a Bug, steps to reproduce and expected behaviour.
+    validations:
+      required: true
+  - type: input
+    id: trace
+    attributes:
+      label: Requirement or ADR
+      description: Spec requirement id or ADR number this relates to, if any.

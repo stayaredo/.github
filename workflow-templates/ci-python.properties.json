@@ -1,0 +1,7 @@
+{
+  "name": "CI (Python)",
+  "description": "Lint and test a Python package with ruff and pytest; the job name `ci` is the required status check on main.",
+  "iconName": "python",
+  "categories": ["Python"],
+  "filePatterns": ["pyproject.toml"]
+}
