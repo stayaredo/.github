@@ -1,0 +1,7 @@
+{
+  "name": "CI (.NET)",
+  "description": "Restore with lock files, check formatting, build with warnings as errors and test a .NET solution (ADR 0056); the job name `ci` is the required status check on main.",
+  "iconName": "octicon package",
+  "categories": ["C#"],
+  "filePatterns": ["global.json", ".*\.slnx?$"]
+}
